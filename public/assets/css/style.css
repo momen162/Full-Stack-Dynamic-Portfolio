@@ -99,3 +99,8 @@ header nav ul li {
     border-radius: 5px;
     text-decoration: none;
 }
+
+.btn:hover{
+    background-color: royalblue;
+    color: red;
+}
