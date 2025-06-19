@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(131, 88, 88);
+    padding: 10px 40px;
+    color: #fff;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    background: #fff;
+}
+
+.hero .intro {
+    max-width: 50%;
+}
+
+.hero .intro h1 {
+    font-size: 40px;
+    margin: 10px 0;
+    color: #111;
+}
+
+.hero .intro .btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background: #00d9ff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* About Section */
+.about {
+    padding: 60px 40px;
+    background: #f0f0f0;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-content .details {
+    max-width: 500px;
+}
+
+.about-content .btn {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
