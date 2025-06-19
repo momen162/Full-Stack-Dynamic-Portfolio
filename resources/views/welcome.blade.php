@@ -13,7 +13,7 @@
         <div class="logo">Momen</div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#" id="Home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#education">Education</a></li>
@@ -27,9 +27,9 @@
     <section class="hero">
         <div class="intro">
             <h2>Hi there,</h2>
-            <h1>I'm Momen Ahmed</h1>
+            <h1 id = "userName">I'm Momen Ahmed</h1>
             <h3>Full Stack Developer</h3>
-            <a href="#about" class="btn">About Me</a>
+            <a href="#about" class="btn" id="change">About Me</a>
             
         </div>
 
@@ -50,5 +50,7 @@
             </div>
         </div>
     </section>
+
+    <script src="{{asset('assets/js/script.js')}}"></script>
 </body>
 </html>
